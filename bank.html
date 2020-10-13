@@ -1,0 +1,53 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+  <title>registration</title>
+</head>
+<body>
+<center><h1>My Bank Card</h1></center>
+<h3>Please fill in the form below.</h3><hr>
+<form name="myform">
+  
+ <h2><label for="uname">Name <font color="red">*</font>:</label>
+          <input type="text" name="name" placeholder="enter your Actual Name" required="required" maxlength="30"size="50"title="this is name field so you have enter only name"/></h2>  
+
+  <h2><label for="ifcode">IFSC CODE <font color="red">*</font>:</label>
+          <input type="text" name="ifcode" placeholder="enter your IFSC Code" required="required" maxlength="12"size="50"/></h2>
+
+  
+  <h2><label for="ac no.">Account Number<font color="red">*</font>:</label>
+          <input type="text" name="ac number" placeholder="enter your Account Number" required="required" maxlength="12"size="50"/></h2>
+
+
+  
+  <h2><label for="ac no.">Confirm Number <font color="red">*</font>:</label>
+          <input type="text" name="ac number" placeholder="Reenter your Account Number" required="required" maxlength="12"size="50"/></h2>
+
+  <h2><label for="state">State<font color="red">*</font>:</label>
+          <input type="text" name="state" placeholder="enter your State" required="required" maxlength="20"size="50"/></h2>
+  
+  <h2><label for="city">City <font color="red">*</font>:</label>
+          <input type="text" name="city" placeholder="enter your City" required="required" maxlength="12"size="50"/></h2>
+ 
+ <h2><label for="address">Address <font color="red">*</font>:</label>
+          <input type="text" name="address" placeholder="enter your Address" required="required" maxlength="50"size="70"/></h2>
+  <h2><label for="mail">Email <font color="red">*</font>:</label>
+          <input type="emial" name="mail" placeholder="Enter your Email" required="required" size="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/></h2>
+ 
+  
+
+ 
+ <h2><label for="gender">Gender <font color="red">*</font>:</label></h2>
+          <input type="radio" name="gender" value="M"/>Male
+          <input type="radio" name="gender" value="F"/>Female
+          <input type="radio" name="gender" value="O"/>Others<br />
+  <h2><label for="cell phone">Cell Phone <font color="red">*</font>:</label></h2>
+          <input type="number" name="area code" placeholder="Area Code" required="required" maxlength="3"size="30"/>&nbsp;-&nbsp;<input type="number" name="phn no" placeholder="Enter Your Mobile Number" required="required" maxlength="10"size="30"/>
+
+  
+  <h2><input type="submit" name="btn" value="submit"/></h2>
+  <center><h1><button type="button" class="btn btn-primary"><a href="maine.html">BACK</a></button></h1></center>
+</form>
+
+</body>
+</html>
